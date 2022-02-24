@@ -22,7 +22,7 @@ Table of contents
 	- [Command-line interface](#cli)
 	
 	- [Windows Standalone](#standalone)
--	[Public key](#public-key)
+
 -	[Tecnologies](#tecnologies)
 - [Autor](#autor)
 <!--te-->
@@ -39,10 +39,9 @@ Table of contents
 <p>This game was created during Alura´s C++ introduction course.</p>
 
 ## Features
-- [X] Gui Interface
-- [x] Download video
-- [x] Download audio
-- [ ] Download full-playlist
+- [ ] Gui Interface
+- [x] CLI Interface
+- [x] Pure C++
 
 ## Instalation-and-how-to-use
 
@@ -94,68 +93,7 @@ They must have the same fingerprint and must not have been revoked.
 
 ### How to obtain my Public keys
 
-[Public key](#public-key)
 
-
-### How to check if the keys are correct and valid:
-
- Run this command to check fingerprint from diferent files:
-
-	gpg --show-keys filename1.asc
- 
- ![Checking fingerprints](./img/image04.png)
- 
- If they both have my [fingerprint](#fingerprint) and have not been revoked, good, the key is valid and secure for use. 
-
-Import my pgp public signature key:
-
-	gpg --import frossard.public.key.asc
-
-Check wether youtube_download.zip has been signed by myself:
-
-	gpg --verify youtube_download.sig
-
-To pass verification you should see a message saying
->Good signature from Anderson Frossard. (Das ist meine key. Wir ziehen voran!)
-
-gpg will probably also say this signature is not certified. That´s because you have just downloaded it and have not applied command *trust* to it.
-
-Once the gpg has verified the  file has been signed by myself, you are safe to unzip it and run its executable. 
-
-Optionally, for aditional security you can hash your youtube_download.exe file and compare with my hash:
-
-<table>
-	<tr>
-		<td>SHA-256</td>
-		<td>File</td>
-	<tr>
-		<td>36F4E8E51035045AD3A79DD7067317DC54CE2ADB6690D6D0972238F1B0AA9D6D</td>
-		<td>youtube_download.exe</td>
-	</tr>
-</table>
-
-The hash must be exactly the same. 
-
-## Public-key
-
-My PGP public key is avaiable at:
-
-[Public Key at Github](https://github.com/AndersonFrossard/karoua_youtube_download_gui/tree/main/standalone/frossard_public_key.asc)
-
-[PGP Global Directory](https://keyserver2.pgp.com/vkd/DownloadKey.event?keyid=0xB79AAE8846C18DF7)
-
-[![PGP 0x46C18DF7](https://peegeepee.com/badge/orange/46C18DF7.svg)](https://d.peegeepee.com/921D2E998D1E3213DFCF74F7B79AAE8846C18DF7.asc)
-
-### Fingerprint
-My PGP public key full fingerprint is:
-
-	921D 2E99 8D1E 3213 DFCF 74F7 B79A AE88 46C1 8DF7
-	
-My PGP public key fingerprint key ID is:
-
-	46C1 8DF7
-
-Enjoy!
 
 ## Tecnologies
 
