@@ -44,8 +44,9 @@ Table of contents
 
 ### Requirements
 
-Windows: None. Just run hangman.exe
-You will need a C++ compiler if you want to compile for Mac or Linux
+Windows: None. Just run hangman.exe<br>
+You will need a C++ compiler if you want to compile for Mac or Linux<br>
+You can find a C++ compiler here: <a href="https://sourceforge.net/projects/mingw/">https://sourceforge.net/projects/mingw/</a>
 
 
 
@@ -77,7 +78,7 @@ Standalone compiled for windows.
 
 ## Tecnologies
 
-Solely written in C++<br />
+100% Written in C++<br />
 
 <br />
 
