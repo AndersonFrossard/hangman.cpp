@@ -16,14 +16,9 @@ Table of contents
 - [Features](#features)
 - [Instalation and how to use](#instalation-and-how-to-use)
 	- [Requirements](#requirements)
-	
-	- [GUI - Graphical User Interface](#gui)
-	
 	- [Command-line interface](#cli)
-	
 	- [Windows Standalone](#standalone)
-
--	[Tecnologies](#tecnologies)
+- [Tecnologies](#tecnologies)
 - [Autor](#autor)
 <!--te-->
 
@@ -32,10 +27,11 @@ Table of contents
 <p>Hi.</p>
 <p>In this game you have to guess the fruit's name chosen randomly
  by the computer. You have to guess letter by letter and after the
- 5th failed letter, you loose the game.
- If you win, the computer asks you whether to add a new fruit or
+ 5th failed letter, you loose.
+ If you win, the computer asks whether you want to add a new fruit or
  not.
- 
+
+
 <p>This game was created during Alura´s C++ introduction course.</p>
 
 ## Features
@@ -48,48 +44,32 @@ Table of contents
 
 ### Requirements
 
->pytube 11.0.2 or greater
-
-If you do not have pytube installed, you can install it by running this command:
-
-	pip install pytube
+Windows: None. Just run hangman.exe
+You will need a C++ compiler if you want to compile for Mac or Linux
 
 
-## GUI - Graphical User Interface
-
-This version runs both on GUI and CLI.
-
-<h2>Running with GUI :</h2>
-
-	python youtube_download.py
-
-![GUI interface](./img/image01.png)
 
 ## CLI - Command Line Interface
 
 <h2>Running with CLI :</h2>
 
-	python youtube_download.py --nogui
+	hangman.exe
 
-![CLI interface](./img/image02.png)
+
 
 ## Standalone
-## Standalone executable for Windows:
 
-Perhaps you just want a fast way to get things running. The standalone executable will suit you well.
-<ul>
-	<li>Download the zip file</li>
-	<li>Unzip the zip file into a new folder</li>
-	<li>Check  integrity of zip file's content (optional)</li>
-	<li>Double click on youtube_download.exe </li>
-</ul>
+Standalone compiled for windows.
 
-### How to check whether the zipfile has not been tampered with:
-
-First, you need to download my pgp public key and check if my public key has not been hacked or tampered with. In order to do that, you should download my public pgp key from two different sources.
-They must have the same fingerprint and must not have been revoked.
-
-[Check my Fingerprint here](#fingerprint)
+<table>
+	<tr>
+		<td>SHA-256</td>
+		<td>File</td>
+	<tr>
+		<td>F2755554D5F33DDB2917FA39CC91A28F182205F1BAB2A3D8FDCFBDC48D4DED24</td>
+		<td>youtube_download.exe</td>
+	</tr>
+</table>
 
 ### How to obtain my Public keys
 
@@ -97,16 +77,8 @@ They must have the same fingerprint and must not have been revoked.
 
 ## Tecnologies
 
-Solely written in Python 3.8.7.<br />
-Libraries imported:
-<ul>
-<li>pytube</li>
-<li>sys</li>
-<li>tkinter</li>
-<li>threading</li>
-<li>Pillow</li>
-<li>io</li>
-</ul>
+Solely written in C++<br />
+
 <br />
 
 ### Autor
@@ -114,11 +86,11 @@ Libraries imported:
 [![flag-br-mini-mini.png](https://i.postimg.cc/DyXTfVHf/flag-br-mini-mini.png)](https://postimg.cc/Xp4hxPnt)
  [![flag-de-mini-mini.png](https://i.postimg.cc/4xGNrNyR/flag-de-mini-mini.png)](https://postimg.cc/nCdJmxq3)
  ✈️ ::statue_of_liberty::
- 
+
 <a href="https://github.com/AndersonFrossard" title="GitHub">
 <img style="border-radius: 50%;" src="https://i.postimg.cc/Rqf7nM29/maxresdefault.jpg" width="100px;" alt=""/>
  <sub><b><br />Anderson Frossard</b></sub></a>
-  
+
 <br />
 Done with ❤️ by Anderson Frossard 👋🏽 Get in contact!<br/><br/>
 
